@@ -22,8 +22,7 @@ With Docker:
 1. In the root of the project, run `docker compose up` (include --build if it's the first time)
 1. This may take a long time, be patient
 1. Open `http://localhost:9000` to see the webpage
-1. Changes to the code will hot reload and be reflected in the webpage or express server 
-
+1. Changes to the code will hot reload and be reflected in the webpage or express server
 
 ### Credentials for SAML-based login
 
@@ -48,3 +47,10 @@ To add/edit accounts for local users see ```/simplesaml/authsources.php```
 
 The code comments are collected and can be found in the `js_documentation` folder after running `docker compose up`. Code comments are served as jsdocs format locally at `http://localhost:9000/documentation`
 
+## License
+
+Mozilla Public License 2.0
+
+## About
+
+Developed in 🇨🇦 Canada at [BCIT's](https://www.bcit.ca/) [Learning and Teaching Centre](https://www.bcit.ca/learning-teaching-centre/). [Contact Us](mailto:courseproduction@bcit.ca).

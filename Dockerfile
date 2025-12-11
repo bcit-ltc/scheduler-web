@@ -7,7 +7,12 @@
 ## Release
 FROM node:21.7-alpine AS release
 
-LABEL maintainer courseproduction@bcit.ca
+LABEL maintainer=courseproduction@bcit.ca
+LABEL org.opencontainers.image.source="https://github.com/bcit-ltc/scheduler-web"
+LABEL org.opencontainers.image.description="web application designed to help BCIT's Nursing instructors communicate the calendar of the OpenLab."
+
+# COPY --from=build /public /usr/share/nginx/html/
+# COPY conf.d/default.conf /etc/nginx/conf.d/default.conf
 ARG VERSION
 ENV VERSION=${VERSION:-0.0.0}
 
