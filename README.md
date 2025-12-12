@@ -8,7 +8,7 @@
 
 OpenLab Scheduler is a web application designed to help BCIT's Nursing instructors communicate the calendar of the OpenLab to students. Students are also able to view announcements about the lab and take surveys that help instructors gain insights into students' learning.
 
-## Required Technologies
+## Requirements
 
 - React
 - Node/Express
