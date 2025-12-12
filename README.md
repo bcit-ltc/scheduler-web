@@ -4,7 +4,7 @@
 
 # OpenLab Scheduler Web
 
-> This is the WEB and it connects to the OpenLabs Scheduler API backend
+> This is the WEB and it connects to the [OpenLabs Scheduler API backend](https://github.com/bcit-ltc/scheduler-api).
 
 OpenLab Scheduler is a web application designed to help BCIT's Nursing instructors communicate the calendar of the OpenLab to students. Students are also able to view announcements about the lab and take surveys that help instructors gain insights into students' learning.
 
